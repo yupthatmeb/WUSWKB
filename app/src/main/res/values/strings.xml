@@ -3,4 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="gymkoelogosmalltopleft">GymKoeLogoSmallTopLeft</string>
+    <string name="guten_tag_insert_a_very_long_name_here">Guten Tag *insert a very long name here*</string>
+    <string name="gutentag">gutentag</string>
 </resources>
