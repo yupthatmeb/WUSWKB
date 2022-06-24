@@ -35,37 +35,22 @@
         android:layout_gravity="bottom"
         android:backgroundTint="#C4D175" />
 
-    <TextView
-        android:id="@+id/GoodMorningText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="100dp"
-        android:shadowColor="@color/text_shadow"
-        android:shadowDx="0"
-        android:shadowDy="3"
-        android:shadowRadius="1"
-        android:text="@string/gutentag"
-        android:textColor="@color/light_font"
-        android:textColorHint="#FFFFFF"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        tools:ignore="TextContrastCheck"
-        tools:text="Guten Tag, *      PLACEHOLDER      *!" />
 
-    <WebView
-        android:id="@+id/WebViewUNTIS"
-        android:layout_width="158dp"
-        android:layout_height="255dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="175dp" />
 
-    <WebView
-        android:id="@+id/WebViewTeams"
-        android:layout_width="158dp"
-        android:layout_height="255dp"
-        android:layout_marginStart="215dp"
-        android:layout_marginTop="175dp" />
+        <WebView
+            android:id="@+id/WebViewTeamsfullsite"
+            android:layout_width="411dp"
+            android:layout_height="780dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="56dp"
+            android:alwaysDrawnWithCache="true"
+            android:contextClickable="true"
+            android:isScrollContainer="true"
+            android:visibility="visible" />
+
+
+
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
